@@ -3,7 +3,10 @@
   background-attachment: fixed;
   background-position: center center;
   overflow-x:hidden;
-  color:#999;
+  color:#ddd;
+  font-size:12px;
+  font-weight:normal;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main_div {
@@ -26,7 +29,7 @@
 
 .nav{
    top: -28px;
-   left: 565px;
+   left: 532px;
    position: relative;
    color:#fff;
 
@@ -34,22 +37,25 @@
 
 .inhalt {
    background: #333;
+   padding:0px;
+   padding-left:10px;
+   padding-top:10px;
    opacity: 0.5;
    filter:Alpha(Opacity=50);
-   height:500px;
-   width:900px;
+   height:490px;
+   width:890px;
    position: absolute;
    box-shadow: 0px 0px 20px 2px #999;
 }
 
 .linie {
-   opacity: 0.5;
-   filter:Alpha(Opacity=50);
-background-color: #000000;
-position: relative;
-height: 1px;
-width: 850px;
-top: 20px;
+  opacity: 0.5;
+  filter:Alpha(Opacity=50);
+  background-color: #000000;
+  position: relative;
+  height: 1px;
+  width: 850px;
+  top: 20px;
 }
 
 .myButton {
