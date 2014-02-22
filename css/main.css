@@ -2,7 +2,8 @@
   background: url("http://www.pegasus-studios.de/images/background.jpg") #333 ;
   background-attachment: fixed;
   background-position: center center;
-overflow-x:hidden;
+  overflow-x:hidden;
+  color:#999;
 }
 
 .main_div {
