@@ -1,41 +1,79 @@
  html, body {
-  background: url("http://www.pegasus-studios.de/images/background.jpg") #333 ;
+  background: url("http://www.pegasus-studios.de/images/background3.jpg") #333 ;
+  background-color:#000000;
   background-attachment: fixed;
   background-position: center center;
+  background-size:2000px 1333px;
+  background-repeat:no-repeat;  
   overflow-x:hidden;
   color:#ddd;
   font-size:12px;
   font-weight:normal;
   font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .main_div {
-   height:500px;
+  /* height:500px;
    margin-top: -250px;
    width:900px;
-   margin-left: -450px;
-   top: 50%;
-   left: 50%;
-   position: absolute;
-
-}
-
-.logo{
-   top: -70px;
+   margin-left: -450px; */
+   top: 0px;
    left: 0px;
    position: absolute;
-
+   width:100%;
+   height:100%;
+   border:0px solid #FFFFFF;
 }
 
 .nav{
-   top: -28px;
-   left: 532px;
-   position: relative;
+   padding:0px;
+   padding-left:5px;
+   padding-top:5px;
+   text-align:center;
+   top: 0px;
+   left: 0px;
+   position: fixed;
    color:#fff;
+   background-color:#333333;
+   height: 30px;
+   width: 100%;
+   border:0px solid #FFFFFF;
+   opacity: 0.5;
+   filter:Alpha(Opacity=70);
+}
+
+.logo{
+   top: 50px;
+   left: 0px;
+   position: absolute;
+   border:0px solid #FFFFFF;
 
 }
 
+.footer {	
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 130px;
+  border:0px solid #FFFFFF;
+  background-color: #333333;
+  width: 100%;
+  opacity: 0.5;
+  filter:Alpha(Opacity=20);
+}
+
+.main_div_inhalt {	
+   top: 30px;
+   left: 0px;
+   position: relative;
+   width:99.9%;
+   height:80%;
+   border:0px solid #FFFFFF;
+}
+
 .inhalt {
+   margin: 40px auto;
    background: #333;
    padding:0px;
    padding-left:10px;
@@ -44,8 +82,8 @@
    filter:Alpha(Opacity=50);
    height:490px;
    width:890px;
-   position: absolute;
-   box-shadow: 0px 0px 20px 2px #999;
+   position: relative;
+   box-shadow: 0px 0px 20px 2px #000000;
 }
 
 .linie {
