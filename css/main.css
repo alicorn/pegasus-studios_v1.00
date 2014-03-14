@@ -3,7 +3,7 @@
   background-color:#000000;
   background-attachment: fixed;
   background-position: center center;
-  background-size:2000px 1333px;
+  background-size:2100px 1400px;
   background-repeat:no-repeat;  
   overflow-x:hidden;
   color:#ddd;
@@ -52,6 +52,9 @@
 }
 
 .footer {	
+   padding:0px;
+   padding-left:5px;
+   padding-top:5px;
   position: fixed;
   bottom: 0;
   left: 0;
